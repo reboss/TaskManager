@@ -9,13 +9,31 @@
 		"id": 2,
 		"name": "Create frontend",
 		"description": "Use React but review Angular for version 2",
-		"estimate": 2,
-		"state": "In Progress"
+		"estimate": 4,
+		"state": "Completed"
 	}, {
 		"id": 3,
 		"name": "Tests",
 		"description": "Write automated tests",
 		"estimate": 1,
 		"state": "Planned"
+	}, {
+		"id": 4,
+		"name": "Dockerize",
+		"description": "Create Docker container with task manager running inside for easy deployment",
+		"estimate": 1,
+		"state": "In Progress"
+	}, {
+		"id": 5,
+		"name": "Documentation",
+		"description": "Comment code",
+		"estimate": 0,
+		"state": "Completed"
+	},	{
+		"id": 6,
+		"name": "Zip it",
+		"description": "Create snapshot of code to submit to Vitruvi for review",
+		"estimate": 0,
+		"state": "Completed"
 	}]
 }

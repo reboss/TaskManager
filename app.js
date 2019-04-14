@@ -15,8 +15,10 @@ try {
 }
 
 // allows cross origin requests from client when in development mode
-if (process.env.NODE_ENV !== 'production')
+if (process.env.NODE_ENV !== 'production') {
+	console.log('NODE_ENV != production => cors policy is unrestricted!')
 	app.use(require('cors')())
+}
 
 // use body parser for converting URL encoding to JSON
 app.use(bodyParser.json());

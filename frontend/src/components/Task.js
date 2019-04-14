@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Table } from "react-bootstrap";
-
-import { connect } from 'react-redux'
-import { ActionCreators } from '../actions'
-import { bindActionCreators } from 'redux'
+import { Button } from "react-bootstrap";
 
 /*
  * Stateful component that renders a task as a table row element.

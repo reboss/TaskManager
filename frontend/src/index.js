@@ -9,6 +9,8 @@ import reducer from './reducers'
 import AppContainer from './containers/AppContainer';
 import * as serviceWorker from './serviceWorker';
 
+process.env.PRODUCTION_URL = 'http://localhost:3000';
+
 function configureStore(intialState) {
 	const enhancer = compose(applyMiddleware(thunkMiddleware))
 	return createStore(reducer, intialState, enhancer)
