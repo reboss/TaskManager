@@ -1,0 +1,16 @@
+{
+  "name": "vitruvi",
+  "version": "1.0.0",
+  "description": "A SPA task manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "John Robbins",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}

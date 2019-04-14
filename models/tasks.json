@@ -1,0 +1,21 @@
+{
+	"data": [{
+		"id": 1,
+		"name": "Create backend API",
+		"description": "Use JSON models",
+		"estimate": 1,
+		"state": "Completed"
+	}, {
+		"id": 2,
+		"name": "Create frontend",
+		"description": "Use React but review Angular for version 2",
+		"estimate": 2,
+		"state": "In Progress"
+	}, {
+		"id": 3,
+		"name": "Tests",
+		"description": "Write automated tests",
+		"estimate": 1,
+		"state": "Planned"
+	}]
+}
