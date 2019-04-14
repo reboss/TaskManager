@@ -1,0 +1,19 @@
+Build instructions:
+
+npm run-script build
+npm start
+
+Dependencies:
+
+This app was developed and built on a Windows 10 machine using the following 
+app dependencies:
+
+	node v10.15.3
+	npm v6.4.1
+
+The following environment variables must be set for production builds:
+
+	NODE_ENV = 'production'
+	PRODUCTION_URL = the url that the api can be accessed through
+		this is used by the frontend to connect to the api
+		localhost will not work if the page is being served from the internet
